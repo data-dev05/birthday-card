@@ -1,0 +1,16 @@
+# Ignorar archivos generados automáticamente
+*.log
+*.min.css
+*.min.js
+
+# Ignorar carpetas de dependencias y módulos
+/node_modules
+/bower_components
+
+# Ignorar archivos sensibles o locales
+/config.json
+/secrets.js
+
+# Ignorar archivos temporales
+*.tmp
+*.temp
