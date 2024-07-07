@@ -1,8 +1,6 @@
-document.getElementById('surpriseButton').addEventListener('click', function() {
-    const message = document.getElementById('surpriseMessage');
-    if (message.style.display === 'none') {
-        message.style.display = 'block';
-    } else {
-        message.style.display = 'none';
+document.getElementById("section-1").addEventListener("click", () => {
+    showCard('card-1');})
+
+function showCard(cardId) {
+    document.getElementById(cardId).style.display = 'block';
     }
-});

@@ -21,11 +21,13 @@ body {
     display: none;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin: 20px 0;
+#section-1 {
+    position: absolute;
+    width: 140px;
+    height: 170px;
+    top: 470px;
+    left: 200px;
+    cursor: pointer;
 }
 
 button {
@@ -41,7 +43,7 @@ button:hover {
     background-color: #ff1493;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     body {
         background: url(https://i.pinimg.com/564x/32/a2/b4/32a2b4eae4aae7448503a9721b189d1b.jpg);
         background-size: cover;
