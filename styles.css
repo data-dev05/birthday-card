@@ -23,12 +23,21 @@ body {
 
 #section-1 {
     position: absolute;
-    background-color: black;
-    opacity: 0.3;
     width: 140px;
     height: 170px;
     top: 75%;
-    left: 40%;
+    left: 39%;
+    cursor: pointer;
+}
+#section-2 {
+    position: absolute;
+    /* background-color: black;
+    opacity: 0.3; */
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    top: 8%;
+    left: 39%;
     cursor: pointer;
 }
 
