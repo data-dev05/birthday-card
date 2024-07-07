@@ -18,6 +18,7 @@ body {
     border-right: 2px solid rgba(255, 255, 255, .2);
     border-bottom: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(10px) ;
+    display: none;
 }
 
 img {
@@ -38,4 +39,12 @@ button {
 
 button:hover {
     background-color: #ff1493;
+}
+
+@media (max-width: 500px) {
+    body {
+        background: url(https://i.pinimg.com/564x/32/a2/b4/32a2b4eae4aae7448503a9721b189d1b.jpg);
+        background-size: cover;
+        background-position: center;
+    }
 }
