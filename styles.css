@@ -28,6 +28,9 @@ body {
     max-height: 40vh;
     overflow: scroll;
     scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .melody-icon {
@@ -118,6 +121,11 @@ body {
     top: 40%;
     height: 250px;
     width: 100%;
+}
+
+#poem {
+    width: 50%;
+    text-align: center;
 }
 
 button {
