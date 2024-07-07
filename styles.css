@@ -20,24 +20,26 @@ body {
     backdrop-filter: blur(10px) ;
     display: none;
 }
-
+.clickable-section {
+    border: 1px solid black;
+    -webkit-tap-highlight-color: transparent;
+    border-radius: 50%;
+}
 #section-1 {
     position: absolute;
     width: 140px;
-    height: 170px;
-    top: 75%;
-    left: 39%;
+    height: 150px;
+    top: 70%;
+    left: 37%;
     cursor: pointer;
+    user-select: none;
 }
 #section-2 {
     position: absolute;
-    /* background-color: black;
-    opacity: 0.3; */
-    width: 80px;
+    width: 70px;
     height: 80px;
-    border-radius: 50%;
-    top: 8%;
-    left: 39%;
+    top: 18%;
+    left: 37%;
     cursor: pointer;
 }
 
