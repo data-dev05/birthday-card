@@ -21,6 +21,8 @@ body {
     backdrop-filter: blur(10px) ;
     display: none;
     width: 90%;
+    max-height: 50%;
+    overflow: scroll;
     position: relative;
 }
 
@@ -32,8 +34,8 @@ body {
 
 .ballons-icon {
     position: absolute;
-    top:70%;
-    left: 83%;
+    bottom: 0;
+    right: 0;
 }
 
 .clickable-section {
