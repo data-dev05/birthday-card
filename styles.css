@@ -11,7 +11,7 @@ body {
 
 .card {
     text-align: center;
-    padding: 60px;
+    padding: 35px;
     background-color: rgba(255, 228, 225, 0.6);
     box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
     border-radius: 30px;
@@ -21,25 +21,33 @@ body {
     backdrop-filter: blur(10px) ;
     display: none;
     width: 90%;
-    max-height: 50%;
-    overflow: scroll;
     position: relative;
 }
 
+.content {
+    max-height: 40vh;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
 .melody-icon {
+    width: 80px;
     position: absolute;
     top: 0;
     left: 0;
+    z-index: -1;
 }
 
 .ballons-icon {
     position: absolute;
+    overflow: scroll;
     bottom: 0;
     right: 0;
+    z-index: -1;
 }
 
 .clickable-section {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     -webkit-tap-highlight-color: transparent;
     border-radius: 50%;
     width: 90px;
