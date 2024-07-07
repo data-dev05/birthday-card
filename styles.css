@@ -21,26 +21,77 @@ body {
     display: none;
 }
 .clickable-section {
-    border: 1px solid black;
+    border: 2px solid red;
     -webkit-tap-highlight-color: transparent;
     border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    cursor: pointer;
 }
 #section-1 {
-    position: absolute;
-    width: 140px;
-    height: 150px;
-    top: 70%;
-    left: 37%;
-    cursor: pointer;
-    user-select: none;
+    top: 76%;
+    left: 40%;
+    width: 120px;
+    height: 100px;
 }
 #section-2 {
-    position: absolute;
-    width: 70px;
-    height: 80px;
+    top: 3%;
+    left: 0;
+}
+
+#section-3 {
+    top: 12%;
+    left: 14%;
+}
+
+#section-4 {
     top: 18%;
-    left: 37%;
-    cursor: pointer;
+    left: 35%;
+}
+
+#section-5 {
+    top: 14%;
+    left: 57%;
+    width: 80px;
+}
+
+#section-6 {
+    top: 11%;
+    left: 80%;
+}
+
+#section-7 {
+    top: 22%;
+    left: 76%;
+    width: 65px;
+    height: 60px;
+}
+
+#section-8 {
+    top: 22%;
+    left: -8%;
+}
+
+#section-9 {
+    top: 28%;
+    left: 13%;
+}
+
+#section-10 {
+    top: 30%;
+    left: 85%;
+}
+
+#section-11 {
+    top: 35%;
+    left: -6%;
+}
+
+#section-12 {
+    top: 38%;
+    height: 250px;
+    width: 180px;
 }
 
 button {
